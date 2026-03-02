@@ -1,26 +1,22 @@
 import { Sparkle } from "lucide-react"
 
-const testimonials = [
-  {
-    quote:
-      "A mentoria da Adriana trouxe o discernimento que eu buscava há anos para sair de um ciclo de estagnação.",
-    name: "Maria",
-  },
-  {
-    quote:
-      "O atendimento de Tarot e Mesa da Ascensão foi cirúrgico. Senti a mudança de frequência imediatamente.",
-    name: "João",
-  },
-]
-
 export function Depoimentos() {
+  // 1. Lista com os nomes dos arquivos que você salvou na pasta /public
+  // Certifique-se de que os nomes e extensões (.jpg ou .png) estão idênticos aos arquivos
+  const prints = [
+    "/depo-1.png",
+    "/depo-2.png",
+    "/depo-3.png",
+    "/depo-4.png",
+  ]
+
   return (
     <section id="depoimentos" className="bg-lavender py-28 lg:py-36">
       <div className="mx-auto max-w-6xl px-6">
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-gold">
-            Vozes que ascenderam
+          <p className="text-sm uppercase tracking-[0.3em] text-gold font-medium">
+            Impacto na Vida Real
           </p>
           <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
             Depoimentos
@@ -28,31 +24,36 @@ export function Depoimentos() {
           <div className="mt-4 h-px w-16 bg-gold/40" />
         </div>
 
-        {/* Testimonial Cards */}
-        <div className="mx-auto grid max-w-4xl gap-8 md:grid-cols-2">
-          {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col gap-6 rounded-2xl border border-border/40 bg-card p-8 shadow-[0_2px_20px_rgba(0,0,0,0.04)] transition-all duration-500 hover:border-gold/30 hover:shadow-[0_4px_28px_rgba(212,175,55,0.08)] lg:p-10"
-            >
-              <Sparkle
-                className="h-5 w-5 text-gold"
-                strokeWidth={1.5}
-                aria-hidden="true"
-              />
+        {/* Carrossel de Prints Reais */}
+        <div className="relative group">
+          <div className="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 hide-scrollbar scroll-smooth">
+            {prints.map((src, index) => (
+              <div
+                key={index}
+                className="relative flex-none w-[85vw] md:w-[320px] snap-center rounded-2xl overflow-hidden border border-border/40 bg-card shadow-sm transition-all duration-500 hover:border-gold/30 hover:shadow-md"
+              >
+                <img
+                  src={src}
+                  alt={`Depoimento Real ${index + 1}`}
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                  onError={(e) => {
+                    // Caso a imagem não carregue, mostra um aviso visual
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              </div>
+            ))}
+          </div>
 
-              <blockquote className="flex-1 font-serif text-lg leading-relaxed text-foreground italic">
-                {`\u201C${t.quote}\u201D`}
-              </blockquote>
-
-              <figcaption className="flex items-center gap-3">
-                <span className="h-px w-8 bg-gold/40" aria-hidden="true" />
-                <span className="text-sm font-medium uppercase tracking-[0.15em] text-muted-foreground">
-                  {t.name}
-                </span>
-              </figcaption>
-            </figure>
-          ))}
+          {/* Indicador Visual para o usuário */}
+          <div className="mt-6 flex justify-center items-center gap-2 text-gold/60">
+            <Sparkle className="h-3 w-3 fill-current" />
+            <p className="text-[10px] uppercase tracking-[0.2em] font-medium">
+              Deslize para ver mais relatos
+            </p>
+            <Sparkle className="h-3 w-3 fill-current" />
+          </div>
         </div>
       </div>
     </section>
