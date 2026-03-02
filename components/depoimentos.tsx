@@ -3,7 +3,7 @@ import { Sparkle } from "lucide-react"
 export function Depoimentos() {
   // Lista com os nomes dos arquivos salvos na pasta /public
   const prints = [
-    "/depo-1.png",
+    "/home.png",
     "/depo-2.png",
     "/depo-3.png",
     "/depo-4.png",
