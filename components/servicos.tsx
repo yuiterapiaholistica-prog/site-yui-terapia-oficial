@@ -6,24 +6,26 @@ const services = [
     title: "Atendimento Individual",
     subtitle: "Vida e Propósito",
     description:
-      "Um processo personalizado de autoconhecimento com foco total na sua história. Trabalhamos para alinhar suas escolhas à sua verdade, organizando pensamentos e acalmando as emoções para que você encontre o seu próximo passo com segurança.",
+      "Um processo personalizado de autoconhecimento com foco total na sua história. Trabalhamos para alinhar suas escolhas à sua verdade, organizando pensamentos e acalmando as emoções para que você encontre o seu próximo passo com segurança e pé no chão.",
     features: [
       "Mergulho profundo na sua história e desafios.",
       "Apoio em transições profissionais e pessoais.",
       "Organização mental para recuperar a segurança.",
     ],
+    whatsappLink: "https://wa.me/5511914051714?text=Olá+Yui,+gostaria+de+saber+mais+sobre+o+atendimento+individual.",
   },
   {
     icon: Users,
-    title: "Atendimento Coletivo",
-    subtitle: "Evolução e Aprendizado Compartilhado",
+    title: "Trabalho Coletivo",
+    subtitle: "Evolução e Apoio Compartilhado",
     description:
-      "Juntos, identificamos padrões repetitivos e fortalecemos sua evolução com o apoio e a energia do grupo. Um espaço seguro para compartilhar experiências, aprender com os outros e expandir sua consciência. O coletivo é um catalisador poderoso para o crescimento pessoal, onde a troca mútua impulsiona a evolução de cada participante.",
+      "Um espaço de troca onde a vivência do outro amplia a percepção sobre si mesmo. Juntos, identificamos padrões repetitivos e fortalecemos sua evolução com o apoio e a energia do grupo.",
     features: [
       "Evolução consciente através da troca mútua.",
       "Identificação de padrões de comportamento.",
       "Expansão de consciência em ambiente seguro.",
     ],
+    whatsappLink: "https://wa.me/5511914051714?text=Olá+Yui,+gostaria+de+saber+mais+sobre+o+trabalho+coletivo+e+os+círculos.",
   },
 ]
 
