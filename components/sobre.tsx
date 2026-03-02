@@ -8,21 +8,20 @@ export function Sobre() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <p className="text-sm uppercase tracking-[0.3em] text-gold">
-              Quem sou
+              Sobre a terapeuta
             </p>
             <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
-              Sobre
+              Quem move a 
               <br />
-              <span className="text-gold">Adriana Yui</span>
+              <span className="text-gold">Yui Terapia Holística</span>
             </h2>
             <div className="mt-2 h-px w-16 bg-gold/40" />
           </div>
 
           <div className="flex flex-col gap-6 leading-relaxed text-muted-foreground">
             <p>
-              Após mais de uma década no universo corporativo da Tecnologia da
-              Informação, onde desenvolvi competências analíticas, visão
-              estratégica e liderança, a vida conduziu-me ao chamamento da alma.
+              Sou Adriana Yui. Por mais de 20 anos, atuei no rigor do mundo corporativo. 
+              Em 2025, aceitei o chamado inadiável de unir minha mente polímata à minha mediunidade ancestral.
             </p>
             <p>
               A transição não foi fuga, mas expansão. Trouxe comigo a
@@ -30,14 +29,13 @@ export function Sobre() {
               agora aplicados ao trabalho sagrado da ascensão de consciência.
             </p>
             <p>
-              Como terapeuta holística e mentora de ascensão, dedico-me a guiar
-              cada pessoa pelo caminho do discernimento. Através do Tarot
-              Terapêutico e da Mesa da Ascensão, ajudo a destruir ilusões, a
-              reconhecer padrões limitantes e a despertar para a verdade
-              soberana que habita em cada ser.
+              Como terapeuta holística, dedico-me a guiar cada pessoa pelo caminho do discernimento. 
+              Através de ferramentas como o tarot, mesa multidimensional e técnicas de autoconhecimento 
+              e regulação emocional-sensorial, ajudo a reconhecer padrões limitantes e a despertar para 
+              a verdadesoberana que habita em cada ser.
             </p>
             <p className="font-serif text-lg text-foreground italic">
-              {"\"A verdade não precisa de defesa. Precisa apenas de quem tenha coragem de a viver.\""}
+              {"\"Minha Missão: Unir a sabedoria ancestral à clareza racional, ajudando o ser humano a destruir as ilusões que o limitam e a construir uma vida alinhada à Verdade da alma.\""}
             </p>
           </div>
         </div>
