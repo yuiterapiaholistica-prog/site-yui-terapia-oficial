@@ -16,7 +16,7 @@ export function Footer() {
         <div className="flex items-center gap-6">
           {/* Instagram */}
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/yuiterapiaholistica"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"
@@ -38,7 +38,7 @@ export function Footer() {
 
           {/* YouTube */}
           <a
-            href="https://youtube.com"
+            href="https://www.youtube.com/@yuiterapiaholistica"
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"
@@ -59,7 +59,7 @@ export function Footer() {
 
           {/* WhatsApp */}
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5511914051714?text=Oi%20Yui%2C%20vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20..."
             target="_blank"
             rel="noopener noreferrer"
             className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"

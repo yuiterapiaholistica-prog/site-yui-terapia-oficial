@@ -36,11 +36,11 @@ export function Hero() {
             </h1>
           </div>
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground">
-            Sabedoria e Discernimento para viver a Verdade da sua alma.
+          Terapia Holística e Tarot Online com a profundidade que sua alma exige. Atendimento especializado em horários estendidos até 00h30.
           </p>
           <div>
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-full bg-gold px-8 py-4 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground transition-all duration-300 hover:bg-gold-dark hover:shadow-lg"
