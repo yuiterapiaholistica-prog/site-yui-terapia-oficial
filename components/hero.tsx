@@ -11,7 +11,7 @@ export function Hero() {
         <div className="relative order-2 md:order-1">
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
-              src="/images/hero.jpg"
+              src="/images/home.png"
               alt="Adriana Yui em sessão de terapia holística"
               fill
               className="object-cover"
