@@ -18,7 +18,7 @@ const services = [
     title: "Atendimento Coletivo",
     subtitle: "Evolução e Aprendizado Compartilhado",
     description:
-      "Enriquecimento de consciência através de trocas que revelam novas visões de si através das lentes do próximo. Uma jornada para evoluir com o suporte de outras histórias. O espaço para expandir a percepção e identificar padrões repetitivos, fortalecendo sua jornada através da força do grupo e da energia compartilhada.",
+      "Juntos, identificamos padrões repetitivos e fortalecemos sua evolução com o apoio e a energia do grupo. Um espaço seguro para compartilhar experiências, aprender com os outros e expandir sua consciência. O coletivo é um catalisador poderoso para o crescimento pessoal, onde a troca mútua impulsiona a evolução de cada participante.",
     features: [
       "Evolução consciente através da troca mútua.",
       "Identificação de padrões de comportamento.",
