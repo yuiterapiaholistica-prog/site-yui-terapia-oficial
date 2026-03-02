@@ -1,8 +1,7 @@
 import { Sparkle } from "lucide-react"
 
 export function Depoimentos() {
-  // 1. Lista com os nomes dos arquivos que você salvou na pasta /public
-  // Certifique-se de que os nomes e extensões (.jpg ou .png) estão idênticos aos arquivos
+  // Lista com os nomes dos arquivos salvos na pasta /public
   const prints = [
     "/depo-1.png",
     "/depo-2.png",
@@ -16,7 +15,7 @@ export function Depoimentos() {
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gold font-medium">
-            Impacto na Vida Real
+            Vozes que ascenderam
           </p>
           <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
             Depoimentos
@@ -37,10 +36,6 @@ export function Depoimentos() {
                   alt={`Depoimento Real ${index + 1}`}
                   className="w-full h-auto object-cover"
                   loading="lazy"
-                  onError={(e) => {
-                    // Caso a imagem não carregue, mostra um aviso visual
-                    e.currentTarget.style.display = 'none';
-                  }}
                 />
               </div>
             ))}
