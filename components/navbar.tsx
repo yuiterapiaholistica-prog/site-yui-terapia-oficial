@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#inicio" className="font-serif text-xl tracking-wide text-gold">
-          Yui
+          Yui Terapia Holística
         </a>
 
         {/* Desktop Navigation */}
