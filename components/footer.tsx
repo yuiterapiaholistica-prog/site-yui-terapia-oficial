@@ -5,13 +5,13 @@ export function Footer() {
         {/* Brand */}
         <div className="flex flex-col items-center gap-4 text-center">
           <p className="font-serif text-2xl tracking-wide text-gold">
-            Yui Terapia Holística
+            Precisa de suporte imediato?
           </p>
           <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
-            Sabedoria e Discernimento para viver a Verdade da sua alma.
+            Entre em contato para tirar dúvidas sobre os atendimentos ou acompanhe as novidades e conteúdos gratuitos nas redes sociais.
           </p>
         </div>
-
+      
         {/* Social Icons */}
         <div className="flex items-center gap-6">
           {/* Instagram */}
