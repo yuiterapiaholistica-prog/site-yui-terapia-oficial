@@ -15,7 +15,7 @@ export function Sobre() {
               <br />
               <span className="text-gold">Yui Terapia Holística</span>
             </h2>
-            <div className="mt-2 h-px w-16 bg-gold/40" />
+            <div className="mt-2 h-px w-16 bg-gold/35" />
           </div>
 
           <div className="flex flex-col gap-6 leading-relaxed text-muted-foreground">
