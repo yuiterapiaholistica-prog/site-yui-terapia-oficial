@@ -27,7 +27,7 @@ export function Hero() {
         <div className="order-1 flex flex-col gap-8 md:order-2">
           <div className="flex flex-col gap-4">
             <p className="text-sm uppercase tracking-[0.3em] text-gold">
-              Terapia Holística
+              Yui Terapia Holística
             </p>
             <h1 className="font-serif text-5xl leading-tight text-foreground lg:text-7xl">
               Adriana
