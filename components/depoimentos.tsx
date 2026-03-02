@@ -1,7 +1,6 @@
 import { Sparkle } from "lucide-react"
 
 export function Depoimentos() {
-  // O caminho exato que vimos no seu print: dentro da pasta images e formato .png
   const prints = [
     "/images/depo-1.png",
     "/images/depo-2.png",
@@ -25,16 +24,19 @@ export function Depoimentos() {
 
         {/* Carrossel de Prints Reais */}
         <div className="relative group">
-          <div className="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-8 hide-scrollbar scroll-smooth">
+          {/* Adicionamos 'items-center' aqui para alinhar verticalmente imagens de alturas diferentes */}
+          <div className="flex items-center overflow-x-auto snap-x snap-mandatory gap-6 pb-8 hide-scrollbar scroll-smooth">
             {prints.map((src, index) => (
               <div
                 key={index}
-                className="relative flex-none w-[85vw] md:w-[320px] snap-center rounded-2xl overflow-hidden border border-border/40 bg-card shadow-sm transition-all duration-500 hover:border-gold/30 hover:shadow-md"
+                // Removemos o bg-card e as bordas duras. Adicionamos um efeito sutil de zoom no hover.
+                className="relative flex-none w-[85vw] md:w-[350px] snap-center transition-transform duration-500 hover:scale-[1.02]"
               >
                 <img
                   src={src}
                   alt={`Depoimento Real ${index + 1}`}
-                  className="w-full h-auto object-cover"
+                  // object-contain garante que 100% do texto do print fique visível
+                  className="w-full h-auto object-contain rounded-2xl shadow-sm border border-black/5"
                   loading="lazy"
                 />
               </div>
