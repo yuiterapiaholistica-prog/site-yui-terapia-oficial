@@ -5,19 +5,19 @@ const painPoints = [
     icon: Moon,
     title: "Angústia Noturna",
     description:
-      "As noites sem respostas, a insónia que nasce das perguntas que a mente repete. As ilusões que alimenta sobre o seu destino dissolvem-se quando a alma finalmente escuta a verdade que sempre soube.",
+      "No silêncio da noite, as incertezas costumam falar alto. Encontre um espaço de escuta ativa para compreender a raiz desse desconforto e recuperar o seu equilíbrio.",
   },
   {
     icon: Compass,
-    title: "Labirintos de Decisão",
+    title: "Caminhos e Escolhas",
     description:
-      "Caminhos que se cruzam, vozes que se contradizem. A paralisia de quem tenta agradar ao mundo enquanto se perde de si. Discernir é destruir as mentiras confortáveis que impedem a sua escolha soberana.",
+      "Em meio às mudanças da vida, construímos um espaço para que você possa traduzir suas necessidades reais e tomar decisões alinhadas à sua essência, com mais segurança e pé no chão. ",
   },
   {
     icon: Zap,
-    title: "Bloqueios de Fluxo",
+    title: "Bloqueios e Padrões Repetitivos",
     description:
-      "A energia estagnada, os padrões que se repetem, a sensação de que a vida não avança. Onde há bloqueio, há uma ilusão a ser desmascarada. Quando a ilusão cai, o fluxo retorna.",
+      "Juntos, identificamos padrões que estagnam o seu fluxo emocional ou profissional, realizando o cuidado necessário para que o seu bem-estar retorne.",
   },
 ]
 
@@ -28,10 +28,10 @@ export function Discernimento() {
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gold">
-            A verdade liberta
+            VOCÊ NÃO PRECISA CARREGAR ESSE PESO SOZINHO(A)
           </p>
           <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
-            Discernimento
+            Discernimento para ver além do óbvio
           </h2>
           <div className="mt-4 h-px w-16 bg-gold/40" />
         </div>
