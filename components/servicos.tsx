@@ -6,7 +6,7 @@ const services = [
     title: "Atendimento Individual",
     subtitle: "Vida e Propósito",
     description:
-      "Uma jornada íntima e profunda de autoconhecimento com foco total na sua jornada de forma dedicada e personalizada. Um processo para alinhar suas escolhas à sua verdade. Trabalhamos para organizar seus pensamentos, acalmar as emoções e encontrar o seu próximo passo com segurança e pé no chão.",
+      "Um processo personalizado de autoconhecimento com foco total na sua história. Trabalhamos para alinhar suas escolhas à sua verdade, organizando pensamentos e acalmando as emoções para que você encontre o seu próximo passo com segurança.",
     features: [
       "Mergulho profundo na sua história e desafios.",
       "Apoio em transições profissionais e pessoais.",
