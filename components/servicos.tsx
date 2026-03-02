@@ -4,25 +4,25 @@ const services = [
   {
     icon: Sparkles,
     title: "Atendimento Individual",
-    subtitle: "Tarot Terapêutico & Mesa da Ascensão",
+    subtitle: "Vida e Propósito",
     description:
-      "Uma jornada íntima e profunda de autoconhecimento. Através do Tarot Terapêutico e da Mesa da Ascensão, revelamos os padrões ocultos, limpamos bloqueios energéticos e restauramos a conexão com a sabedoria da sua alma. Cada sessão é um portal para a sua verdade mais autêntica.",
+      "Uma jornada íntima e profunda de autoconhecimento com foco total na sua jornada de forma dedicada e personalizada. Um processo para alinhar suas escolhas à sua verdade. Trabalhamos para organizar seus pensamentos, acalmar as emoções e encontrar o seu próximo passo com segurança e pé no chão.",
     features: [
-      "Leitura intuitiva personalizada",
-      "Harmonização energética profunda",
-      "Orientação para decisões conscientes",
+      "Mergulho profundo na sua história e desafios.",
+      "Apoio em transições profissionais e pessoais.",
+      "Organização mental para recuperar a segurança.",
     ],
   },
   {
     icon: Users,
     title: "Atendimento Coletivo",
-    subtitle: "Círculos de Ascensão",
+    subtitle: "Evolução e Aprendizado Compartilhado",
     description:
-      "Um espaço sagrado de partilha e expansão coletiva. Os Círculos de Ascensão reúnem almas em busca de elevação, onde a energia do grupo amplifica a transformação individual. Práticas meditativas, partilha guiada e rituais de conexão com o propósito maior.",
+      "Enriquecimento de consciência através de trocas que revelam novas visões de si através das lentes do próximo. Uma jornada para evoluir com o suporte de outras histórias. O espaço para expandir a percepção e identificar padrões repetitivos, fortalecendo sua jornada através da força do grupo e da energia compartilhada.",
     features: [
-      "Meditações guiadas coletivas",
-      "Partilha em círculo sagrado",
-      "Rituais de expansão de consciência",
+      "Evolução consciente através da troca mútua.",
+      "Identificação de padrões de comportamento.",
+      "Expansão de consciência em ambiente seguro.",
     ],
   },
 ]
@@ -34,7 +34,7 @@ export function Servicos() {
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gold">
-            Caminhos de cura
+            Caminhos de Evolução
           </p>
           <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
             Atendimentos
