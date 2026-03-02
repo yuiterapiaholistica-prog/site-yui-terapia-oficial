@@ -29,7 +29,7 @@ export function Hero() {
             <p className="text-sm uppercase tracking-[0.3em] text-gold">
               AUTOCONHECIMENTO E EVOLUÇÃO CONSCIENTE
             </p>
-            <h1 className="font-serif text-5xl leading-tight text-foreground lg:text-5xl">
+            <h1 className="font-serif text-5xl leading-tight text-foreground lg:text-4xl">
               Acolhimento e Discernimento para a sua Jornada.
               <br />
               <span className="text-gold">Equilíbrio Mental, Cura Espiritual e Suporte Real para Momentos de Incerteza.</span>
