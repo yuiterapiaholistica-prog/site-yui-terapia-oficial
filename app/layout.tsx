@@ -15,7 +15,7 @@ const _playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Yui Terapia Holística - Tarot Terapêutico, Mesa da Ascensão e Círculos de Ascensão',
+  title: 'Yui Terapia Holística - Tarot Terapeutico e Mentoria',
   description:
     'Sabedoria e Discernimento para viver a Verdade da sua alma. Tarot Terapêutico, Mesa da Ascensão e Círculos de Ascensão.',
   icons: {
