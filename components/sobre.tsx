@@ -47,7 +47,7 @@ export function Sobre() {
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
               src="/images/Yui terapeuta holistica.jpg"
-              alt="Adriana Yui, terapeuta holística e mentora de ascensão"
+              alt="Adriana Yui, terapeuta holística, sorrindo a imagem tem fundo lavanda, transmitindo sernidade e acolhimento"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"

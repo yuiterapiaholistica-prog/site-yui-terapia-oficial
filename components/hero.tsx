@@ -12,7 +12,7 @@ export function Hero() {
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
               src="/images/home.png"
-              alt="Adriana Yui em sessão de terapia holística"
+              alt="Imagem de uma mão segurando um pêndulo de cristal, simbolizando a terapia holística e o tarot, com um fundo suave em tom lavanda"
               fill
               className="object-cover"
               priority
