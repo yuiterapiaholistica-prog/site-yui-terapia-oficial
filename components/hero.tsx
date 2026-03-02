@@ -27,16 +27,16 @@ export function Hero() {
         <div className="order-1 flex flex-col gap-8 md:order-2">
           <div className="flex flex-col gap-4">
             <p className="text-sm uppercase tracking-[0.3em] text-gold">
-              Yui Terapia Holística
+              AUTOCONHECIMENTO E EVOLUÇÃO CONSCIENTE
             </p>
             <h1 className="font-serif text-5xl leading-tight text-foreground lg:text-7xl">
-              Adriana
+              Acolhimento e Discernimento para a sua Jornada.
               <br />
-              <span className="text-gold">Yui</span>
+              <span className="text-gold">Equilíbrio Mental, Cura Espiritual e Suporte Real para Momentos de Incerteza.</span>
             </h1>
           </div>
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground">
-          Terapia Holística e Tarot Online com a profundidade que sua alma exige. Atendimento especializado em horários estendidos até 00h30.
+          Um espaço seguro de escuta ativa dedicado ao seu bem-estar. Através de ferramentas de autoconhecimento profundo e cuidados energéticos, ofereço o suporte necessário para você organizar seus pensamentos, acalmar as emoções e recuperar a segurança para agir. Atendimento acolhedor até 00h30.
           </p>
           <div>
             <a
@@ -45,7 +45,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-block rounded-full bg-gold px-8 py-4 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground transition-all duration-300 hover:bg-gold-dark hover:shadow-lg"
             >
-              Agendar Sessão
+              Vamos conversar?
             </a>
           </div>
         </div>
