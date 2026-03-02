@@ -7,7 +7,7 @@ export function Hero() {
       className="relative flex min-h-screen items-center pt-20"
     >
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-2 lg:gap-20">
-        {/* Image */}
+        {/* Imagem */}
         <div className="relative order-2 md:order-1">
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
@@ -19,33 +19,41 @@ export function Hero() {
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
-          {/* Decorative gold line */}
+          {/* Linha dourada decorativa */}
           <div className="absolute -bottom-4 -right-4 h-full w-full rounded-2xl border border-gold/30" />
         </div>
 
-        {/* Text */}
+        {/* Texto */}
         <div className="order-1 flex flex-col gap-8 md:order-2">
-          <div className="flex flex-col gap-4">
-            <p className="text-sm uppercase tracking-[0.3em] text-gold">
-              AUTOCONHECIMENTO E EVOLUÇÃO CONSCIENTE
+          <div className="flex flex-col gap-4 md:gap-6">
+            <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-gold font-medium">
+              Autoconhecimento e Evolução Consciente
             </p>
-            <h1 className="font-serif text-5xl leading-tight text-foreground lg:text-4xl">
-              Acolhimento e Discernimento para a sua Jornada.
-              <br />
-              <span className="text-gold">Equilíbrio Mental, Cura Espiritual e Suporte Real para Momentos de Incerteza.</span>
+            <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl">
+              Acolhimento e discernimento para a sua jornada.
             </h1>
+            <h2 className="text-lg md:text-xl font-serif text-gold leading-snug">
+              Equilíbrio mental, cura espiritual e suporte real para momentos de incerteza.
+            </h2>
           </div>
-          <p className="max-w-md text-lg leading-relaxed text-muted-foreground">
-          Um espaço seguro de escuta ativa dedicado ao seu bem-estar. Através de ferramentas de autoconhecimento profundo e cuidados energéticos, ofereço o suporte necessário para você organizar seus pensamentos, acalmar as emoções e recuperar a segurança para agir. Atendimento acolhedor até 00h30.
-          </p>
-          <div>
+          
+          <div className="flex flex-col gap-4">
+            <p className="max-w-md text-base md:text-lg leading-relaxed text-muted-foreground">
+              Um espaço seguro de <strong>escuta ativa</strong> dedicado ao seu bem-estar. Através de ferramentas de autoconhecimento profundo e cuidados energéticos, ofereço o suporte necessário para você organizar seus pensamentos, acalmar as emoções e recuperar a segurança para agir.
+            </p>
+            <p className="text-sm font-medium text-foreground uppercase tracking-wider">
+              Atendimento acolhedor até as 00h30.
+            </p>
+          </div>
+
+          <div className="pt-2">
             <a
               href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20sess%C3%B5es."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block rounded-full bg-gold px-8 py-4 text-sm font-medium uppercase tracking-[0.2em] text-primary-foreground transition-all duration-300 hover:bg-gold-dark hover:shadow-lg"
+              className="inline-block rounded-full bg-gold px-8 py-4 text-sm font-medium uppercase tracking-[0.15em] text-white transition-all hover:bg-gold/90 hover:shadow-lg"
             >
-              Vamos conversar?
+              Agendar Sessão
             </a>
           </div>
         </div>
