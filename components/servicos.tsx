@@ -20,7 +20,7 @@ const services = [
     title: "Sessão dos Anjos",
     subtitle: "Cura Energética e Emocional",
     description:
-      "Uma imersão em frequências de pura luz de anjos e arcanjos. Tratamento focado no expurgo profundo de medos, crenças negativas e travas energéticas para restaurar sua paz e proteção divina.",
+      "Uma imersão em frequências de pura luz. Tratamento focado no expurgo profundo de medos, crenças negativas e travas energéticas para restaurar sua paz e proteção divina.",
     features: [
       "Mapeamento intencional da raiz do desconforto.",
       "Imersão meditativa para liberação de bloqueios.",
