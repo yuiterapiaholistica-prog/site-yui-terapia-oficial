@@ -13,11 +13,11 @@ const _playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
 })
-
 export const metadata: Metadata = {
-  title: 'Yui Terapia Holística - Tarot Terapeutico e Mentoria',
+  title: 'Yui Terapia Holística | Tarot Terapêutico Online e Mentoria',
   description:
-    'Sabedoria e Discernimento para viver a Verdade da sua alma. Tarot Terapêutico, Mesa da Ascensão e Círculos de Ascensão.',
+    'Diagnóstico e clareza para bloqueios emocionais e transições de vida. Atendimento online de Tarot Terapêutico, Limpeza Energética e Mentoria. Agende sua sessão.',
+  keywords: ['Terapia Holística Online', 'Tarot Terapêutico', 'Mesa da Ascensão', 'Limpeza Energética', 'Ansiedade', 'Mentoria Espiritual'],
   icons: {
     icon: [
       {
@@ -35,7 +35,17 @@ export const metadata: Metadata = {
     ],
     apple: '/apple-icon.png',
   },
+  openGraph: {
+    title: 'Yui Terapia Holística | Clareza Lógica e Espiritual',
+    description: 'Diagnóstico profundo para bloqueios emocionais. Atendimento especializado online.',
+    url: 'https://www.yuiterapiaholistica.com.br',
+    siteName: 'Yui Terapia Holística',
+    locale: 'pt_BR',
+    type: 'website',
+  },
 }
+
+
 
 export const viewport: Viewport = {
   themeColor: '#F3F0FF',
