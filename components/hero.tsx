@@ -29,10 +29,10 @@ export function Hero() {
             <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-gold font-medium">
               Mapeamento Energético e Estratégico
             </p>
-            <h1 className="font-serif text-4xl leading-tight text-foreground md:text-5xl lg:text-6xl">
+            <h1 className="font-serif text-3xl leading-tight text-foreground md:text-4xl lg:text-5xl">
               Terapia Holística Online: Acolhimento e discernimento para superar seus bloqueios.
             </h1>
-            <h2 className="text-lg md:text-xl font-serif text-gold leading-snug">
+            <h2 className="text-base md:text-lg font-serif text-gold leading-snug">
               Equilíbrio mental e sabedoria ancestral para trazer lucidez e direcionamento imediato às suas decisões.
             </h2>
           </div>
