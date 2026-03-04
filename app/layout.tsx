@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const _inter = Inter({
@@ -59,23 +60,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${_inter.variable} ${_playfair.variable}`}>
-<head>
-        {/* GA4 - Injeção Direta em HTML Puro para forçar o Tag Assistant */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYR80BNH73"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-SYR80BNH73', {
-                page_path: window.location.pathname,
-              });
-            `,
-          }}
-        />
-      </head>
       <body className="font-sans antialiased">
+        {/* GA4 - Forma Nativa do Next.js para não ser apagado no deploy */}
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-SYR80BNH73" 
+          strategy="afterInteractive" 
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-SYR80BNH73');
+          `}
+        </Script>
+
         {children}
         <Analytics />
         <SpeedInsights />
