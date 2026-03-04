@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from '@vercel/analytics/next'
-import Script from 'next/script'
 import './globals.css'
 
 const _inter = Inter({
@@ -60,20 +59,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${_inter.variable} ${_playfair.variable}`}>
-      <head>
-        {/* Google Analytics 4 */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-SYR80BNH73`}
-          strategy="afterInteractive"
+<head>
+        {/* GA4 - Injeção Direta em HTML Puro para forçar o Tag Assistant */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYR80BNH73"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SYR80BNH73', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
         />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-SYR80BNH73');
-          `}
-        </Script>
       </head>
       <body className="font-sans antialiased">
         {children}
