@@ -3,21 +3,21 @@ import { Moon, Compass, Zap } from "lucide-react"
 const painPoints = [
   {
     icon: Moon,
-    title: "Angústia Noturna",
+    title: "Angústia Noturna e Ansiedade",
     description:
-      "No silêncio da noite, as incertezas costumam falar alto. Encontre um espaço de escuta ativa para compreender a raiz desse desconforto e recuperar o seu equilíbrio.",
+      "No silêncio da noite, as incertezas costumam falar alto. Encontre um espaço seguro de escuta ativa para compreender a raiz da ansiedade e recuperar o seu equilíbrio mental e emocional.",
   },
   {
     icon: Compass,
-    title: "Caminhos e Escolhas",
+    title: "Transição e Propósito",
     description:
-      "Em meio às mudanças da vida, construímos um espaço para que você possa traduzir suas necessidades reais e tomar decisões alinhadas à sua essência, com mais segurança e pé no chão. ",
+      "Em meio às mudanças da vida (carreira, relacionamentos, saúde), construímos um espaço para que você possa traduzir suas necessidades reais e tomar decisões alinhadas à sua essência, com mais segurança e pé no chão.",
   },
   {
     icon: Zap,
-    title: "Bloqueios e Padrões Repetitivos",
+    title: "Travas e Padrões Repetitivos",
     description:
-      "Juntos, identificamos padrões que estagnam o seu fluxo emocional ou profissional, realizando o cuidado necessário para que o seu bem-estar retorne.",
+      "Juntos, identificamos padrões energéticos e sistêmicos que estagnam o seu fluxo de prosperidade, aplicando intervenções pontuais para que o seu bem-estar e a sua fluidez retornem.",
   },
 ]
 
@@ -49,7 +49,7 @@ export function Discernimento() {
               <h3 className="font-serif text-2xl text-foreground">
                 {point.title}
               </h3>
-              <p className="max-w-sm leading-relaxed text-muted-foreground">
+              <p className="leading-relaxed text-muted-foreground">
                 {point.description}
               </p>
             </div>
@@ -59,3 +59,5 @@ export function Discernimento() {
     </section>
   )
 }
+
+

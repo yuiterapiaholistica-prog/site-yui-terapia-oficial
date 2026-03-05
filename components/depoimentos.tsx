@@ -32,10 +32,9 @@ export function Depoimentos() {
                 // Removemos o bg-card e as bordas duras. Adicionamos um efeito sutil de zoom no hover.
                 className="relative flex-none w-[85vw] md:w-[350px] snap-center transition-transform duration-500 hover:scale-[1.02]"
               >
-                <img
+              <img
                   src={src}
-                  alt={`Depoimento Real ${index + 1}`}
-                  // object-contain garante que 100% do texto do print fique visível
+                  alt={`Relato e depoimento de cliente sobre os atendimentos da Yui Terapia Holística - Imagem ${index + 1}`}
                   className="w-full h-auto object-contain rounded-2xl shadow-sm border border-black/5"
                   loading="lazy"
                 />

@@ -20,8 +20,8 @@ export function Sobre() {
 
           <div className="flex flex-col gap-6 leading-relaxed text-muted-foreground">
             <p>
-              Sou Adriana Yui. Por mais de 20 anos, atuei no rigor do mundo corporativo. 
-              Em 2025, aceitei o chamado inadiável de unir minha mente polímata à minha mediunidade ancestral.
+              Sou Adriana Yui. Por mais de 20 anos, atuei no rigor do universo corporativo. 
+              Em 2025, aceitei o chamado inadiável de unir minha mente polímata à mediunidade ancestral.
             </p>
             <p>
               A transição não foi fuga, mas expansão. Trouxe comigo a
@@ -32,10 +32,10 @@ export function Sobre() {
               Como terapeuta holística, dedico-me a guiar cada pessoa pelo caminho do discernimento. 
               Através de ferramentas como o tarot, mesa multidimensional e técnicas de autoconhecimento 
               e regulação emocional-sensorial, ajudo a reconhecer padrões limitantes e a despertar para 
-              a verdadesoberana que habita em cada ser.
+              a verdade soberana que habita em cada ser.
             </p>
             <p className="font-serif text-lg text-foreground italic">
-              {"\"Minha Missão: Unir a sabedoria ancestral à clareza racional, ajudando o ser humano a destruir as ilusões que o limitam e a construir uma vida alinhada à Verdade da alma.\""}
+              "Minha Missão: Unir a sabedoria ancestral à lucidez racional, ajudando o ser humano a destruir as ilusões que o limitam e a construir uma vida alinhada à Verdade da alma."
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export function Sobre() {
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
               src="/images/Yui terapeuta holistica.jpg"
-              alt="Adriana Yui, terapeuta holística, sorrindo a imagem tem fundo lavanda, transmitindo sernidade e acolhimento"
+              alt="Adriana Yui - Terapeuta Holística especialista em Tarot Online e Mentoria de Ascensão"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
