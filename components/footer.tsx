@@ -14,7 +14,7 @@ export function Footer() {
           </p>
         </div>
       
-        {/* CTAs & Social */}
+ {/* CTAs & Social */}
         <div className="flex flex-col sm:flex-row items-center gap-6">
           {/* WhatsApp Direto */}
           <a
@@ -27,26 +27,34 @@ export function Footer() {
             Falar no WhatsApp
           </a>
 
-          {/* Instagram */}
-          <a
-            href="https://www.instagram.com/yuiterapiaholistica"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"
-            aria-label="Instagram da Yui Terapia Holística"
-          >
-            <svg
-              className="h-5 w-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              aria-hidden="true"
+          <div className="flex items-center gap-4">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/yuiterapiaholistica"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"
+              aria-label="Instagram da Yui Terapia Holística"
             >
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
-            </svg>
-          </a>
+              <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5} aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
+              </svg>
+            </a>
+
+            {/* YouTube */}
+            <a
+              href="https://www.youtube.com/@yuiterapiaholistica"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-border/50 text-muted-foreground transition-all duration-300 hover:border-gold/40 hover:text-gold"
+              aria-label="YouTube da Yui Terapia Holística"
+            >
+              <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+          </div>
         </div>
         
         <div className="mt-8 border-t border-border/30 pt-8 text-center text-xs text-muted-foreground">
