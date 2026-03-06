@@ -61,19 +61,27 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${_inter.variable} ${_playfair.variable}`}>
       <body className="font-sans antialiased">
-        {/* GA4 - Forma Nativa do Next.js para não ser apagado no deploy */}
-        <Script 
-          src="https://www.googletagmanager.com/gtag/js?id=G-SYR80BNH73" 
-          strategy="afterInteractive" 
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
+        
+        {/* Google Tag Manager - Script Principal */}
+        <Script id="google-tag-manager" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-SYR80BNH73');
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TZ78ZGH6');
           `}
         </Script>
+
+        {/* Google Tag Manager - Noscript (Para segurança em falhas de JS) */}
+        <noscript>
+          <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TZ78ZGH6"
+            height="0" 
+            width="0" 
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
 
         {children}
         <Analytics />
