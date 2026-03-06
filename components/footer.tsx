@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer id="contacto" className="border-t border-border/30 py-16 lg:py-20">
+    <footer id="contato" className="border-t border-border/30 py-16 lg:py-20">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-6">
         {/* Brand */}
         <div className="flex flex-col items-center gap-4 text-center">
