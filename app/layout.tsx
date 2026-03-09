@@ -16,6 +16,10 @@ const _playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.yuiterapiaholistica.com.br'),
+  alternates: {
+    canonical: '/',
+  },
   title: 'Yui Terapia Holística | Tarot Terapêutico Online e Mentoria',
   description:
     'Mapeamento e discernimento para bloqueios emocionais e transições de vida. Atendimento online de Tarot Terapêutico, Limpeza Energética e Mentoria. Agende sua sessão.',
