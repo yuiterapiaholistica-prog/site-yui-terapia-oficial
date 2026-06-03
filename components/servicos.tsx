@@ -52,10 +52,10 @@ export function Servicos() {
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gold">
-            Mapeamento e Intervenção
+            Processos customizados de bem-estar
           </p>
           <h2 className="font-serif text-3xl text-foreground lg:text-5xl">
-            Atendimentos e Terapias
+            Sessões e Mentorias Integrativas
           </h2>
           <div className="mt-4 h-px w-16 bg-gold/40" />
         </div>
