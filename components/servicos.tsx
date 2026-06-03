@@ -4,13 +4,13 @@ const services = [
   {
     icon: Compass,
     title: "Tarot Terapêutico Online",
-    subtitle: "Lucidez Imediata e Direcionamento",
+    subtitle: "Lucidez e Direcionamento estratégico",
     description:
-      "Uma leitura direta para trazer à luz padrões ocultos e auxiliar em decisões urgentes (carreira, relacionamentos e transições). Mapeamento focado em organizar seus pensamentos e recuperar a segurança para agir.",
+      "Uma abordagem direta para identificar padrões ocultos e delimitar cenários em carreira, relacionamentos e transições de vida. Um mapeamento estruturado que fornece o panorama situacional necessário para organizar seus pensamentos, facilitando a tomada de decisão sob seu comando consciente.",
     features: [
-      "Mapeamento do momento atual e próximos passos.",
-      "Respostas diretas, sem misticismo exagerado.",
-      "Identificação de bloqueios práticos e emocionais.",
+      "Mapeamento do momento atual.",
+      "Abordagem objetiva, sem misticismo passivo.",
+      "Identificação de bloqueios práticos e dinâmicas emocionais.",
     ],
     checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/fem3861-sessao-de-tarot-completo---panorama-e-cami",
     buttonText: "VER VALORES E AGENDAR",
@@ -18,41 +18,41 @@ const services = [
   {
     icon: Sparkles,
     title: "Sessão dos Anjos",
-    subtitle: "Cura Energética e Emocional",
+    subtitle: "Harmonização Vibracional e Emocional",
     description:
-      "Uma imersão em frequências de pura luz. Tratamento focado no expurgo profundo de medos, crenças negativas e travas energéticas para restaurar sua paz e proteção divina.",
+      "Uma imersão que une práticas de atenção plena e modulação frequencial para a atenuação de ruídos internos. Um processo estruturado para identificar e dissipar travas bioenergéticas, restabelecendo o equilíbrio do seu campo sutil e promovendo a autorregulação emocional.",
     features: [
-      "Mapeamento intencional da raiz do desconforto.",
-      "Imersão meditativa para liberação de bloqueios.",
-      "Alívio de ansiedade e dores físicas sem causa aparente.",
+      "Mapeamento intencional de pontos de estagnação e dissonância energetica.",
+      "Prática meditativa conduzida para descompressão mental e relaxamento.",
+      "Estímulo ao equilíbrio energético para o alívio de tensões e promoção do bem-estar.",
     ],
     checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/ojh6954-sessao-dos-anjos",
     buttonText: "VER VALORES E AGENDAR",
   },
-  {
-    icon: Activity,
-    title: "Mesa da Ascensão",
-    subtitle: "Intervenção e Conexões de Alma",
-    description:
-      "Sessão de 1h30 com a ferramenta multidimensional canalizada pela Mestra Nefertiti. Especialmente desenhada para harmonizar conexões complexas (como Chamas Gêmeas), curando feridas e dissolvendo bloqueios no campo energético, mental e emocional.",
-    features: [
-      "Aferição técnica e tratamento energético personalizado.",
-      "Reprogramação de padrões e liberação de bloqueios.",
-      "Alinhamento de propósito e elevação vibracional.",
-    ],
-    checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/vwt8716-mesa-da-ascensao",
-    buttonText: "VER VALORES E AGENDAR",
-  },
+      {/*
+        icon: Activity,
+        title: "Mesa da Ascensão",
+        subtitle: "Intervenção e Conexões de Alma",
+        description:
+          "Sessão de 1h30 com a ferramenta multidimensional canalizada pela Mestra Nefertiti. Especialmente desenhada para harmonizar conexões complexas (como Chamas Gêmeas), curando feridas e dissolvendo bloqueios no campo energético, mental e emocional.",
+        features: [
+          "Aferição técnica e tratamento energético personalizado.",
+          "Reprogramação de padrões e liberação de bloqueios.",
+          "Alinhamento de propósito e elevação vibracional.",
+        ],
+        checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/vwt8716-mesa-da-ascensao",
+        buttonText: "VER VALORES E AGENDAR",
+      */},
   {
     icon: Users,
     title: "Mentoria Vida e Propósito",
     subtitle: "Acompanhamento Individual",
     description:
-      "Um processo personalizado para unir a sabedoria ancestral à realidade prática do dia a dia. Ideal para transições de carreira e alinhamento de propósito de alma através da escuta ativa mediúnica.",
+      "Um processo personalizado que une a sensibilidade sutil, os fundamentos da neurociência aplicada e práticas de mindfulness à sua realidade prática. O caminho ideal para otimizar seu bem-estar contínuo e alinhar suas escolhas de forma consciente — seja para atravessar momentos de mudança ou para consolidar mais lucidez e discernimento à sua rotina.",
     features: [
-      "Apoio estruturado em transições complexas.",
-      "Ponte entre o universo material e o espiritual.",
-      "Mentoria contínua para expansão de consciência.",
+      "Suporte estruturado para o desenvolvimento da autorregulação e sustentação do bem-estar.",
+      "Integração analítica para desativar padrões automáticos que limitam sua paz interna e performance.",
+      "Acompanhamento contínuo focado no treino da presença consciente e no foco estratégico.",
     ],
     checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/oeg8803-sessao-terapia-consciencial",
     buttonText: "VER VALORES E AGENDAR",

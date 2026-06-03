@@ -20,17 +20,17 @@ export function Sobre() {
 
           <div className="flex flex-col gap-6 leading-relaxed text-muted-foreground">
             <p>
-              Sou Adriana Yui. Por mais de 20 anos, atuei no rigor do universo corporativo. 
-              Em 2025, aceitei o chamado inadiável de unir minha mente polímata à mediunidade ancestral.
+              Por mais de 20 anos, atuei no rigor do universo corporativo. 
+              Em 2025, aceitei o chamado inadiável de unir a mente polímata à mediunidade ancestral.
             </p>
             <p>
               A transição não foi fuga, mas expansão. Trouxe comigo a
               disciplina, o rigor ético e a capacidade de sistematizar processos,
-              agora aplicados ao trabalho sagrado da ascensão de consciência.
+              agora aplicados ao trabalho sagrado da expansão de consciência.
             </p>
             <p>
               Como terapeuta holística, dedico-me a guiar cada pessoa pelo caminho do discernimento. 
-              Através de ferramentas como o tarot, mesa multidimensional e técnicas de autoconhecimento 
+              Através de ferramentas como o tarot, mesa multidimensional, técnicas de autoconhecimento 
               e regulação emocional-sensorial, ajudo a reconhecer padrões limitantes e a despertar para 
               a verdade soberana que habita em cada ser.
             </p>
@@ -45,7 +45,7 @@ export function Sobre() {
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
               src="/images/Yui terapeuta holistica.jpg"
-              alt="Adriana Yui - Terapeuta Holística especialista em Tarot Online e Mentoria de Ascensão"
+              alt="Terapia Holística - Tarot Online e Mentoria de Expansão da Consciência"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
