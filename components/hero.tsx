@@ -30,19 +30,20 @@ export function Hero() {
               Mapeamento Energético e Estratégico
             </p>
             <h1 className="font-serif text-3xl leading-tight text-foreground md:text-4xl lg:text-5xl">
-              Terapia Holística Online: Acolhimento e discernimento para superar seus bloqueios.
+              Terapia Holística Online
             </h1>
             <h2 className="text-base md:text-lg font-serif text-gold leading-snug">
-              Equilíbrio mental e sabedoria ancestral para trazer lucidez e direcionamento imediato às suas decisões.
+              Acolhimento e discernimento para a sua evolução consciente
             </h2>
           </div>
           
           <div className="flex flex-col gap-4">
             <p className="max-w-md text-base md:text-lg leading-relaxed text-muted-foreground">
-              Um espaço seguro de <strong>escuta ativa</strong> para identificar padrões ocultos, ansiedade e travas emocionais. Uma abordagem direta que une a visão espiritual à realidade prática, ajudando você a organizar pensamentos e recuperar a segurança para agir.
+              Uma abordagem que integra os fundamentos da neurociência, práticas de mindfulness e ferramentas vibracionais para apresentar um panorama lúcido das suas dinâmicas internas e de seus padrões.
+              Através da escuta ativa, este espaço apoia a identificação de inquietações e travas emocionais. Um processo estruturado para organizar o cenário mental, deixando a tomada de decisão sob seu comando consciente.
             </p>
             <p className="text-sm font-medium text-foreground uppercase tracking-wider">
-              Atendimento acolhedor online até as 00h30.
+              Atendimento online pós-horário comercial e finais de semana
             </p>
           </div>
 
