@@ -20,22 +20,13 @@ export function Sobre() {
 
           <div className="flex flex-col gap-6 leading-relaxed text-muted-foreground">
             <p>
-              Por mais de 20 anos, atuei no rigor do universo corporativo. 
-              Em 2025, aceitei o chamado inadiável de unir a mente polímata à mediunidade ancestral.
+              Com mais de 20 anos de trajetória no universo corporativo, atuo integrando o rigor analítico e estrutural ao estudo da mente e às práticas integrativas. Essa bagagem consolidou a disciplina, o compromisso ético e a capacidade de organizar cenários complexos — competências que hoje direciono ao suporte do desenvolvimento individual através da neurociência aplicada e do mindfulness.
             </p>
             <p>
-              A transição não foi fuga, mas expansão. Trouxe comigo a
-              disciplina, o rigor ético e a capacidade de sistematizar processos,
-              agora aplicados ao trabalho sagrado da expansão de consciência.
-            </p>
-            <p>
-              Como terapeuta holística, dedico-me a guiar cada pessoa pelo caminho do discernimento. 
-              Através de ferramentas como o tarot, mesa multidimensional, técnicas de autoconhecimento 
-              e regulação emocional-sensorial, ajudo a reconhecer padrões limitantes e a despertar para 
-              a verdade soberana que habita em cada ser.
+              Em minha prática de atendimento integrativo, utilizo ferramentas como o Tarot e a escuta ativa para mapear dinâmicas e apresentar um panorama lúcido sobre padrões comportamentais, salvaguardando a autonomia para que cada decisão permaneça sob seu comando consciente.
             </p>
             <p className="font-serif text-lg text-foreground italic">
-              "Minha Missão: Unir a sabedoria ancestral à lucidez racional, ajudando o ser humano a destruir as ilusões que o limitam e a construir uma vida alinhada à Verdade da alma."
+              "Minha abordagem visa unir a sabedoria integrativa à lucidez racional, apoiando a organização do cenário mental e fornecendo a estrutura necessária para escolhas conscientes e pragmáticas."
             </p>
           </div>
         </div>
