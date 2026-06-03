@@ -29,20 +29,6 @@ const services = [
     checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/ojh6954-sessao-dos-anjos",
     buttonText: "VER VALORES E AGENDAR",
   },
-      {/*
-        icon: Activity,
-        title: "Mesa da Ascensão",
-        subtitle: "Intervenção e Conexões de Alma",
-        description:
-          "Sessão de 1h30 com a ferramenta multidimensional canalizada pela Mestra Nefertiti. Especialmente desenhada para harmonizar conexões complexas (como Chamas Gêmeas), curando feridas e dissolvendo bloqueios no campo energético, mental e emocional.",
-        features: [
-          "Aferição técnica e tratamento energético personalizado.",
-          "Reprogramação de padrões e liberação de bloqueios.",
-          "Alinhamento de propósito e elevação vibracional.",
-        ],
-        checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/vwt8716-mesa-da-ascensao",
-        buttonText: "VER VALORES E AGENDAR",
-      */},
   {
     icon: Users,
     title: "Mentoria Vida e Propósito",
