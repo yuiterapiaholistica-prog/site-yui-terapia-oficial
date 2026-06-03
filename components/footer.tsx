@@ -59,6 +59,7 @@ export function Footer() {
         
         <div className="mt-8 border-t border-border/30 pt-8 text-center text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} Yui Terapia Holística. Todos os direitos reservados.</p>
+          <p>Nota de responsabilidade: As sessões e mentorias integrativas oferecidas neste site atuam exclusivamente nas esferas de bem-estar, autoconhecimento e desenvolvimento pessoal. Elas não constituem, substituem, eliminam ou suspendem cuidados, acompanhamentos ou tratamentos médicos, alopáticos, psiquiátricos ou psicológicos.</p>
         </div>
       </div>
     </footer>
