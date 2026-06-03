@@ -3,21 +3,21 @@ import { Moon, Compass, Zap } from "lucide-react"
 const painPoints = [
   {
     icon: Moon,
-    title: "Angústia Noturna e Ansiedade",
+    title: "Incertezas e Ruídos Mentais",
     description:
-      "No silêncio da noite, as incertezas costumam falar alto. Encontre um espaço seguro de escuta ativa para compreender a raiz da ansiedade e recuperar o seu equilíbrio mental e emocional.",
+      "No silêncio da noite, os questionamentos costumam falar mais alto. Encontre um espaço seguro de escuta ativa para compreender a dinâmica dessas inquietações, apoiando a organização dos pensamentos e o relaxamento mental.",
   },
   {
     icon: Compass,
-    title: "Transição e Propósito",
+    title: "Transições e Escolhas",
     description:
-      "Em meio às mudanças da vida (carreira, relacionamentos, saúde), construímos um espaço para que você possa traduzir suas necessidades reais e tomar decisões alinhadas à sua essência, com mais segurança e pé no chão.",
+      "Em meio às mudanças da rotina (carreira, relacionamentos, novos projetos), este espaço apoia a tradução de suas necessidades reais. Um processo estruturado para facilitar decisões conscientes, com pragmatismo e pé no chão.",
   },
   {
     icon: Zap,
-    title: "Travas e Padrões Repetitivos",
+    title: "Ciclos e Padrões Repetitivos",
     description:
-      "Juntos, identificamos padrões energéticos e sistêmicos que estagnam o seu fluxo de prosperidade, aplicando intervenções pontuais para que o seu bem-estar e a sua fluidez retornem.",
+      "Identificação de dinâmicas energéticas e sistêmicas que geram estagnação no seu dia a dia. Através de mapeamentos pontuais, organizamos o cenário para que o seu bem-estar e a fluidez natural retornem.",
   },
 ]
 
@@ -28,7 +28,7 @@ export function Discernimento() {
         {/* Header */}
         <div className="mb-20 flex flex-col items-center gap-4 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-gold">
-            VOCÊ NÃO PRECISA CARREGAR ESSE PESO SOZINHO(A)
+            VOCÊ NÃO PRECISA CONDUZIR ESSE PROCESSO SOZINHO(A)
           </p>
           <h2 className="font-serif text-4xl text-foreground lg:text-5xl">
             Discernimento para ver além do óbvio
