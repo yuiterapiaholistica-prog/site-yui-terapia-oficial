@@ -60,8 +60,8 @@ export function Servicos() {
           <div className="mt-4 h-px w-16 bg-gold/40" />
         </div>
 
-        {/* Service Cards */}
-        <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+        {/* Service Cards - Grid corrigido para 3 colunas em telas grandes */}
+        <div className="grid gap-8 lg:grid-cols-3 lg:gap-12">
           {services.map((service) => (
             <div
               key={service.title}

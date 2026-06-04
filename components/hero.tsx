@@ -49,7 +49,7 @@ export function Hero() {
 
           <div className="pt-2">
             <a
-              href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20vim%20pelo%20seu%20site%20e%20busco%20direcionamento%20para%20o%20meu%20momento."
+              href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block rounded-full bg-gold px-8 py-4 text-sm font-medium uppercase tracking-[0.15em] text-white transition-all hover:bg-gold/90 hover:shadow-lg"

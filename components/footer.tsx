@@ -19,7 +19,7 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row items-center gap-6">
             {/* WhatsApp Direto */}
             <a
-              href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20estou%20no%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o."
+              href="https://wa.me/5511914051714?text=Ol%C3%A1%20Yui%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-full bg-gold px-8 py-3 text-sm font-medium uppercase tracking-wider text-white transition-all hover:bg-gold/90"
