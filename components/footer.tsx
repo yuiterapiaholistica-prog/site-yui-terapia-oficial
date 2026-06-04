@@ -60,7 +60,7 @@ export function Footer() {
           
           {/* Nota de Responsabilidade - Reposicionada */}
           <p className="max-w-3xl text-[11px] leading-relaxed text-muted-foreground/80 text-center mt-2 px-4">
-            Nota de responsabilidade: As sessões e mentorias integrativas oferecidas neste site atuam exclusivamente nas esferas de bem-estar, autoconhecimento e desenvolvimento pessoal. Elas não constituem, substituem, eliminam ou suspendem cuidados, acompanhamentos ou tratamentos médicos, alopáticos, psiquiátricos ou psicológicos.
+            <strong>Nota de responsabilidade:</strong> As sessões e mentorias integrativas oferecidas neste site atuam exclusivamente nas esferas de bem-estar, autoconhecimento e desenvolvimento pessoal. Elas não constituem, substituem, eliminam ou suspendem cuidados, acompanhamentos ou tratamentos médicos, alopáticos, psiquiátricos ou psicológicos.
           </p>
         </div>
         

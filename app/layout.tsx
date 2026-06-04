@@ -20,10 +20,24 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  title: 'Yui Terapia Holística | Tarot Terapêutico Online e Mentoria',
+  title: 'Yui Terapia Holística | Tarot, Mapeamento Energético e Mentoria',
   description:
-    'Mapeamento e discernimento para bloqueios emocionais e transições de vida. Atendimento online de Tarot Terapêutico, Limpeza Energética e Mentoria. Agende sua sessão.',
-  keywords: ['Terapia Holística Online', 'Tarot Terapêutico', 'Mesa da Ascensão', 'Limpeza Energética', 'abandono', 'rejeição','tristeza','Ansiedade', 'Mentoria Espiritual'],
+    'Abordagem integrativa que une a sabedoria do Tarot à neurociência aplicada e mindfulness. Mapeamento de padrões, organização do cenário mental e suporte para decisões lúcidas. Atendimento online acolhedor.',
+  keywords: [
+    'Yui Terapia Holística',
+    'Terapia Holística Online', 
+    'Tarot Terapêutico', 
+    'Mapeamento Energético', 
+    'Limpeza Energética', 
+    'Mapeamento de Padrões', 
+    'Organização Mental', 
+    'Lucidez nas Decisões',
+    'Inquietação', 
+    'Ruído Mental',
+    'Neurociência Aplicada',
+    'Mindfulness no dia a dia',
+    'Mentoria Vida e Propósito'
+  ],
   icons: {
     icon: [
       {
@@ -42,8 +56,8 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   openGraph: {
-    title: 'Yui Terapia Holística | Clareza Lógica e Espiritual',
-    description: 'Mapeamento profundo para bloqueios emocionais. Atendimento acolhedor online. Horários extendidos para sua conveniência. Agende sua sessão de Tarot Terapêutico, Limpeza Energética ou Mentoria.',
+    title: 'Yui Terapia Holística | Discernimento Lógico, Presença e Sabedoria',
+    description: 'Panorama lúcido e estruturado das suas dinâmicas internas. Unindo sensibilidade sutil, neurociência aplicada e escuta ativa para escolhas conscientes. Atendimento online flexível.',
     url: 'https://www.yuiterapiaholistica.com.br',
     siteName: 'Yui Terapia Holística',
     locale: 'pt_BR',
