@@ -66,7 +66,7 @@ export function Footer() {
         
         {/* Copyright Final */}
         <div className="mt-8 w-full border-t border-border/30 pt-8 text-center text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Yui Terapia Holística. Todos os direitos reservados. @adriana_yui</p>
+          <p>© {new Date().getFullYear()} Yui Terapia Holística. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
