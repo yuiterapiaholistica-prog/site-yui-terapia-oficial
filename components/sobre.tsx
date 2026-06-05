@@ -35,8 +35,8 @@ export function Sobre() {
         <div className="relative">
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
-              src="/images/sonre-a-terapeuta.jpg"
-              alt="Terapia Holística - Tarot Online e Mentoria de Expansão da Consciência"
+              src="/images/sobre-a-terapeuta.jpg"
+              alt="Terapia Holística - Tarot Online e Mentoria para Expansão da Consciência"
               fill
               className="object-cover"
               sizes="(max-width: 768px) 100vw, 50vw"
