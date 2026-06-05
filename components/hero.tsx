@@ -11,7 +11,7 @@ export function Hero() {
         <div className="relative order-2 md:order-1">
           <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
             <Image
-              src="/images/Home-new.png"
+              src="/images/Home.png"
               alt="Atendimento de Terapia Holística Online"
               fill
               className="object-cover"

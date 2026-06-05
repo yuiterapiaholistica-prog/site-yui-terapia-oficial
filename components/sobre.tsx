@@ -39,6 +39,7 @@ export function Sobre() {
               alt="Terapia Holística - Tarot Online e Mentoria de Expansão da Consciência"
               fill
               className="object-cover"
+              className="rounded-2xl border border-border/50 saturate-[0.25] transition-all duration-500 hover:saturate-100"
               sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
