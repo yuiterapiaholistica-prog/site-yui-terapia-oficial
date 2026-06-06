@@ -4,43 +4,43 @@ const services = [
   {
     icon: Compass,
     title: "Tarot Terapêutico Online",
-    subtitle: "Lucidez e Direcionamento estratégico",
+    subtitle: "Investigação de cenários e direcionamento prático",
     description:
-      "Uma abordagem direta para identificar padrões ocultos e delimitar cenários em carreira, relacionamentos e transições de vida. Um mapeamento estruturado que fornece o panorama situacional necessário para organizar seus pensamentos, facilitando a tomada de decisão sob seu comando consciente.",
+      "Uma análise focada no seu momento atual para organizar os pensamentos e delimitar caminhos em momentos de escolhas complexas, carreira ou relacionamentos. Uma abordagem direta, prática e sem misticismo passivo.",
     features: [
-      "Mapeamento do momento atual.",
-      "Abordagem objetiva, sem misticismo passivo.",
-      "Identificação de bloqueios práticos e dinâmicas emocionais.",
+      "Mapeamento objetivo do panorama atual.",
+      "Identificação de bloqueios e desafios práticos.",
+      "Sessão individual de 1 hora com hora marcada.",
     ],
     checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/fem3861-sessao-de-tarot-completo---panorama-e-cami",
     buttonText: "VER VALORES E AGENDAR",
   },
   {
-    icon: Sparkles,
-    title: "Sessão dos Anjos",
-    subtitle: "Harmonização Vibracional e Emocional",
+    icon: Activity,
+    title: "Consultoria Integrativa Individual",
+    subtitle: "Organização mental e regulação emocional",
     description:
-      "Uma imersão que une práticas de atenção plena e modulação frequencial para a atenuação de ruídos internos. Um processo estruturado para identificar e dissipar travas bioenergéticas, restabelecendo o equilíbrio do seu campo sutil e promovendo a autorregulação emocional.",
+      "O atendimento individual mais completo. Unimos o rigor analítico à percepção sutil, integrando neurociência aplicada, técnicas de atenção plena e outras ferramentas personalizadas para mapear padrões repetitivos e resgatar a sua estabilidade interna.",
     features: [
-      "Mapeamento intencional de pontos de estagnação e dissonância energetica.",
-      "Prática meditativa conduzida para descompressão mental e relaxamento.",
-      "Estímulo ao equilíbrio energético para o alívio de tensões e promoção do bem-estar.",
+      "Ideal para rotinas de alta demanda e transições.",
+      "Abordagem customizada voltada para a sua autonomia.",
+      "Sessão individual de 1 hora (100% online).",
     ],
-    checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/ojh6954-sessao-dos-anjos",
+    checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/unb1358-ciclo-de-acompanhamento-individual---vida-",
     buttonText: "VER VALORES E AGENDAR",
   },
   {
     icon: Users,
-    title: "Mentoria Vida e Propósito",
-    subtitle: "Acompanhamento Individual",
+    title: "Círculo: Expansão da Consciência",
+    subtitle: "Suporte e experiências compartilhadas",
     description:
-      "Um processo personalizado que une a sensibilidade sutil, os fundamentos da neurociência aplicada e práticas de mindfulness à sua realidade prática. O caminho ideal para otimizar seu bem-estar contínuo e alinhar suas escolhas de forma consciente — seja para atravessar momentos de mudança ou para consolidar mais lucidez e discernimento à sua rotina.",
+      "Ciclo mensal fechado baseado em inteligência coletiva e práticas de percepção sutil. Encontros semanais desenhados para reduzir o ruído mental, recuperar o foco e fortalecer a sua soberania interna diante dos desafios do cotidiano.",
     features: [
-      "Suporte estruturado para o desenvolvimento da autorregulação e sustentação do bem-estar.",
-      "Integração analítica para desativar padrões automáticos que limitam sua paz interna e performance.",
-      "Acompanhamento contínuo focado no treino da presença consciente e no foco estratégico.",
+      "4 encontros online por mês (um por semana).",
+      "Diálogos de espelhamento e suporte mútuo.",
+      "Direcionamento individualizado em cada sessão.",
     ],
-    checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/oeg8803-sessao-terapia-consciencial",
+    checkoutLink: "https://loja.infinitepay.io/yuiterapiaholistica/yyp6619-circulo-de-acompanhamento-a-jornada-da-asc",
     buttonText: "VER VALORES E AGENDAR",
   },
 ]
@@ -60,7 +60,7 @@ export function Servicos() {
           <div className="mt-4 h-px w-16 bg-gold/40" />
         </div>
 
-        {/* Service Cards - Grid corrigido para 3 colunas em telas grandes */}
+        {/* Service Cards */}
         <div className="grid gap-8 lg:grid-cols-3 lg:gap-12">
           {services.map((service) => (
             <div
